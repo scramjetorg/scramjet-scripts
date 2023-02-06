@@ -1,0 +1,38 @@
+{
+  "name": "@scramjet/scripts",
+  "version": "0.13.0",
+  "description": "Scripts used by scramjet cloud platform",
+  "bin": {
+    "scramjet-add-to-package": "./bin/add-to-packages-json.js",
+    "scramjet-build-all": "build-all.js",
+    "scramjet-deps-update": "./bin/deps-update.js",
+    "scramjet-editorconfig": "./bin/editorconfig.js",
+    "scramjet-hash-to-file": "./bin/hash-to-file.js",
+    "scramjet-mk-readme": "./bin/mk-readme.js",
+    "scramjet-packsequence": "./bin/packsequence.js",
+    "scramjet-publish-order-dist-packages": "./bin/publish-order-dist-packages.js",
+    "scramjet-publish": "./bin/publish.js",
+    "scramjet-run-script": "./bin/run-script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@npmcli/run-script": "^6.0.0",
+    "eslint": "^8.33.0",
+    "eslint-to-editorconfig": "^2.0.0",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.1.0",
+    "globrex": "^0.1.2",
+    "minimist": "^1.2.7",
+    "semver": "^7.3.8",
+    "tar": "^6.1.13",
+    "toposort": "^2.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
